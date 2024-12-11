@@ -1,0 +1,125 @@
+# HTML5 Syllabus:
+
+1. Introduction to HTML5:
+    - Browser history (Internet, Browser, Application)
+    - Overview and evolution of HTML5
+    - HTML Editors (Notepad, VSC)
+   
+2. HTML5 Document Structure:
+    - HTML5 Doctype declaration (!!! -> <!DOCTYPE html>)
+    - Basic structure of an HTML5 document (html, head, body)
+    
+Head:---------------------------
+3. Metadata and Document Head:
+    - Meta tags (meta)
+    - Linking stylesheets and scripts (link, script)
+    - Favicons (link rel="icon")
+
+Body:---------------------------------------------------------------
+4. Basic HTML Elements:
+    - Text elements (h1-h6, p, q, blockquote, pre, hr, br, address)
+    - <img>
+    - link(<a>)
+    - <style>
+    - Inline elements (span, a, b, i, em, strong, code)
+
+5. Input Types:
+    - New input types (email, url, date, time, color, number, range, search)
+
+6. Forms :
+    - Form elements (form, input, textarea, select, option, button, label, fieldset, legend)
+    - Form attributes and validation (required, placeholder, pattern, autocomplete, novalidate)
+  
+7. Linking and Navigation:
+    - Creating hyperlinks (a)
+    - Anchor attributes (href, target, rel)
+    - Using navigation elements (nav)
+    - Best practices for accessible forms and navigation
+
+8. Tables:
+    - Table structure (table, tr, td, th)
+    - Table sections (thead, tbody, tfoot)
+    - Attributes for tables (colspan, rowspan)
+
+9. Lists:
+    - Ordered lists (ol)
+    - Unordered lists (ul)
+    - Definition lists (dl, dt, dd)
+
+10. Semantic elements:
+    - header, footer, section, article, aside, nav
+
+========================================================================================
+# CSS3 Syllabus :
+
+1. Introduction to CSS:
+    - Overview of CSS and its purpose
+    - CSS syntax and structure
+    - Including CSS in HTML (inline, internal, and external stylesheets)
+
+2. HTML5 and CSS3 Integration:
+    - Linking external CSS files
+    - Using CSS to style HTML5 elements
+
+3. Selectors and Combinators:
+    - Basic selectors (type, class, ID)
+    - Attribute selectors
+    - Pseudo-classes and pseudo-elements
+    - Combinators (descendant, child, adjacent sibling, general sibling)
+
+4. Box Model:
+    - Understanding the box model (content, padding, border, margin)
+    - Box-sizing property
+    - Calculating width and height
+
+5. Styling Text and Fonts:
+    - Text properties (color, font-family, font-size, font-weight, font-style, line-height)
+    - Text alignment, decoration, and transformation
+    - Google Fonts and custom fonts
+
+6. Backgrounds and Borders:
+    - Background properties (color, image, position, size, repeat, attachment)
+    - Border properties (width, style, color, radius)
+    - Box shadows
+
+7. Layout Techniques:
+    - Display property (block, inline, inline-block, none)
+    - Positioning (static, relative, absolute, fixed, sticky)
+    - Float and clear properties
+    - Z-index and stacking context
+
+8. Flexbox Layout:
+    - Flex container and flex items
+    - Flex direction, wrap, and flow
+    - Justify-content, align-items, and align-content
+    - Flex-grow, flex-shrink, and flex-basis
+
+9. Grid Layout:
+    - Defining a grid container
+    - Grid template areas, rows, columns
+    - Grid gap, align, and justify properties
+    - Placing items in a grid
+
+10. Transitions and Animations:
+    - CSS transitions (property, duration, timing function, delay)
+    - Keyframe animations (keyframes, animation properties)
+    - Animating properties and states
+
+11. Transformations:
+    - 2D transformations (translate, rotate, scale, skew)
+    - 3D transformations and perspective
+    - Transform-origin and backface-visibility
+
+12. Pseudo-Classes and Pseudo-Elements:
+    - Pseudo-classes (:hover, :focus, :nth-child, :not, etc.)
+    - Pseudo-elements (::before, ::after, ::first-line, ::first-letter)
+
+13. CSS Variables (Custom Properties):
+    - Defining and using CSS variables
+    - Variable scope and inheritance
+    - Using variables for theme management
+
+14. Responsive Web Design:
+
+15. CSS Frameworks:
+    - Bootstrap, Tailwind CSS

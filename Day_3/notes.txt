@@ -1,0 +1,12 @@
+  <h3>Writting Paragraph :</h3>
+    <p>By using p element can write paragraph on page. we can generate dummy para of 50 words by using lorem50.</p>
+    <p>In para we can formate text.</p>
+    <p>Examples of HTML Text formatting Elements:</p>
+    <p>1. b Tag: <b>Text Bold</b></p>
+    <p>2. strong Tag: <strong>Text Bold</strong></p>
+    <p>3. mark Tag: <mark>Text Highlighted</mark></p>
+    <p>4. u Tag: <u>underline word</u></p>
+</body>
+
+
+
