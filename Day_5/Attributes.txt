@@ -8,7 +8,7 @@ common attributes examples:  rel, href, type, src, alt, height, width, class, id
 
 css selectors: address of html element inside the all html code (DOM tree).
 
-How we can make css selectors ??
+ Css selectors 
 
 formula:
     tagName[attrName="attrValue"]
