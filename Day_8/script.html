@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + JS</title>
+    <!-- Can add js code in both head & body tag -->
+    <!-- <script src="script.js"></script> -->
+    <script>
+        console.log("Head tag JS code executed...");    
+    </script>
+</head>
+
+<body>
+
+
+    <p>We can add javaScript code inside the HTML.</p>
+    <!-- External javascript file: -->
+    <script src="script.js"></script>
+
+    <p>Inside the script element, we can write js code inside the HTML code.</p>
+
+    <script>
+        console.log("body tag JS code executed...");    
+    </script>
+    <P>
+        <mark>Best Practice:</mark> JavaScript code requires HTML elements to be present for functional operations. To
+        ensure that the HTML elements are fully loaded in the UI before the JavaScript runs, it is recommended to write
+        or include the JavaScript code at the end of the HTML body tag.
+    </P>
+
+</body>
+
+</html>
