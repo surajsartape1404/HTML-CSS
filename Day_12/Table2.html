@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1px">
+        <caption> <mark>Column Merge</mark></caption>
+        <tr>
+            <th>TH1</th>
+            <th>TH2</th>
+            <th>TH3</th>
+        </tr>
+        <tr>
+            <td>R1C1</td>
+            <td>R1C2</td>
+            <td>R1C3</td>
+        </tr>
+        <tr>
+            <td>R2C1</td>
+            <td>R2C2</td>
+            <td>R2C3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">R3C1</td>
+            <!-- <td>R3C2</td> -->
+            <!-- <td>R3C3</td> -->
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1">
+        <caption><mark>Row Merge</mark></caption>
+
+        <tr>
+            <th>TH1</th>
+            <th>TH2</th>
+            <th>TH3</th>
+        </tr>
+        <tr>
+            <td>R1C1</td>
+            <td>R1C2</td>
+            <td rowspan="3">R1C3</td>
+        </tr>
+        <tr>
+            <td>R2C1</td>
+            <td>R2C2</td>
+            <!-- <td>R2C3</td> -->
+        </tr>
+
+        <tr>
+            <td>R3C1</td>
+            <td>R3C2</td>
+            <!-- <td>R3C3</td> -->
+        </tr>
+    </table>
+</body>
+
+</html>
