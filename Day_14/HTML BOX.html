@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h1 {
+            text-align: center;
+            padding: 20px;
+            border: 10px, solid;
+            /* margin: 20px; */
+            /* One value will be assign equal for all sides */
+            margin: 20px 10px 20px 10px;
+            /*     Top  Right Bottom Left  */
+        }
+
+        strong,
+        i {
+            border: 1px, solid;
+        }
+    </style>
+</head>
+
+<body>
+    <mark>Box Model:</mark>
+    <p>The box model describes how elements are rendered on a webpage, consisting of content, padding, border, and
+        margin.</p>
+    <li>Content : HTML Text, Image</li>
+    <li>Padding : Space between the content and the border. Here we not have a styling, we can apply only diamensions.
+    </li>
+    <li>Border: A border surrounding the padding and content.</li>
+    <li>Margin: Space outside the border, separating this element from other elements. Here we not have a styling, we
+        can apply only dimensions.</li>
+    <hr>
+    <h1>HTML Content</h1>
+    <hr>
+    <strong>Ele1</strong> <i>Ele2</i>
+    <hr>
+    <mark>Element dimensions calculation</mark>
+    <li>Final element width = left border + left padding + width + right padding + right border</li>
+    <li>Final element height = top border + top padding + height + bottom padding + bottom border</li>
+</body>
+
+</html>

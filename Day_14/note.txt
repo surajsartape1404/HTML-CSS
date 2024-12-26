@@ -1,0 +1,19 @@
+  css box model
+   content
+   padding: T R B L
+   border width,style,color
+   margin
+
+   width, hight
+   total width, total hight
+
+Selectors:
+    1. css attribute/element selector
+    2. css class selector
+    3. css id selector
+        nth of type selector: nth-of-type()No,even,odd first,last
+        descendant selector: > or space
+        sibling selector: ~
+    4. css universal selector: *
+    5. css group selector(,)
+       
