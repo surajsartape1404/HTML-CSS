@@ -1,0 +1,33 @@
+CSS Pseudo-classes:
+
+    Pseudo-classes are used to select and style elements based on their special states or positions in relation to other elements.
+
+    pseudo selectors  -- all pseudo selectors starts with : 
+
+    Syntax: 
+    selector:pseudo-class {
+                property: value;
+             }
+    
+        1. :hover:
+            Targets an element when the mouse pointer is over it.
+            Commonly used for links and interactive elements to provide hover effects.
+        2. :visited:
+            Targets links that have been visited by the user.
+            Allows for styling visited links differently from unvisited ones.
+            Note: Some styling restrictions apply for security reasons.
+        3. :nth-child(n):
+            Selects elements based on their position within a parent element.
+            n can be a number or a formula (e.g., 2n for even elements).
+            Useful for styling alternating rows in tables or specific items in a list.
+        4. :nth-of-type(n):
+            Similar to :nth-child(), but selects elements of a specific type (e.g., p:nth-of-type(odd)).
+            Useful for targeting specific types of elements within a container.
+        5. :not(selector):
+            Selects elements that do not match the given selector.
+            Useful for excluding specific elements from styling rules.
+            Example: p:not(.special) selects all paragraphs except those with the class "special."
+        6. :first-child and :last-child:
+            Select the first and last child elements of a parent element, respectively.
+            Helpful for styling elements at the beginning or end of a container.
+      
