@@ -1,0 +1,11 @@
+
+<audio> : Can add mp3 player in UI
+<video> : Can add mp4 player in UI
+<source> : Fetching media from the system using src path
+
+Attributes:
+    - `controls`: Adds media playback controls like play, pause, time, option and volume.
+    - `autoplay`: Starts playing the media automatically.
+    - `loop`: Loops the media after it ends.
+    - `muted`: Mutes the media by default.
+    - `poster`: Specifies an image to display while the video is loading or until the user plays it.
