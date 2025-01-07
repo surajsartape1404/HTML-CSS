@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color CSS</title>
+    <style>
+        h1:nth-child(1) {
+            color: greenyellow;
+        }
+
+        h1:nth-child(2) {
+            /* color: rgb(red, green, blue); */
+            /* Min 0 Max 256 */
+            /* color: rgb(20, 50, 40); */
+
+            /* red */
+            /* color: rgb(256, 0, 0); */
+
+            /* green */
+            /* color: rgb(0, 256, 0); */
+
+            /* blue */
+            /* color: rgb(0, 0, 256); */
+
+            /* Black */
+            /* color: rgb(0, 0, 0); */
+
+            /* White */
+            /* color: rgb(256, 256, 256); */
+
+            /* opacity: 0-1; */
+            color: rgba(0, 0, 256, 0.3);
+        }
+
+        /* HEX: Hexadecimal - #rrggbb */
+        h1:nth-child(3) {
+            /* 0-9
+            A, B, C, D, E,  F
+            10 11 12 13 14 15
+          
+             #ffffff
+             #rrggbb 
+             #rgb             
+             */
+            /* color: #000000; */
+            /* color: #000; */
+            /* color: #993002; */
+            /* color: #ffffff; */
+            color: #bbbbbb;
+        }
+
+        /* HSL: Hue Saturation lightness */
+        h1:nth-child(4) {
+            /* hue(h): degree
+            
+            */
+            color: hsl(120, saturation, lightness);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>NameValue Color Heading Text</h1>
+    <h1>RGB Color Heading Text</h1>
+    <h1>Hexadecimal Color Heading Text</h1>
+    <h1>hsl Color Heading Text</h1>
+
+</body>
+
+</html>
