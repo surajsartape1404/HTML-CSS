@@ -1,0 +1,28 @@
+# HSL Color Model:
+    HSL stands for:
+    - Hue: The type of color.
+    - Saturation: The intensity or purity of the color.
+    - Lightness: The brightness or darkness of the color.
+
+# Components of HSL:
+    1. Hue (`H`):
+    - Hue represents the color itself and is given as an angle in degrees on the color wheel, ranging from `0` to `360`.
+    - Different angles correspond to different colors:
+        - `0°`: Red
+        - `60°`: Yellow
+        - `120°`: Green
+        - `180°`: Cyan
+        - `240°`: Blue
+        - `300°`: Magenta
+        - `360°`: Back to Red
+
+    2. Saturation (`S`):
+    - Saturation refers to the intensity or purity of the color, expressed as a percentage.
+    - `100%` saturation means the color is fully pure, with no addition of gray.
+    - `0%` saturation means the color is completely desaturated (a shade of gray).
+
+    3. Lightness (`L`):
+    - Lightness indicates how light or dark the color is, also expressed as a percentage.
+    - `0%` lightness means the color is completely black.
+    - `100%` lightness means the color is completely white.
+    - `50%` lightness means the color is at its full intensity.
