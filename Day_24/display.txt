@@ -1,0 +1,21 @@
+# CSS display Property:
+    The display property in CSS determines how an HTML element is visually rendered in the layout of a web page. 
+    It defines the type of box an element generates, affecting its behavior and positioning. The display property can take various values, each with its own characteristics.
+
+1. block:
+    Elements with display: block; generate a block-level box.
+    Block-level elements start on a new line and take up the full width of their parent container. E.g. <div>, <p>, <h1>, and <form>.
+    
+2. inline:
+    Elements with display: inline; generate an inline-level box.
+    Inline-level elements do not start on a new line and only take up as much width as necessary. E.g. <span>, <a>, <strong>, and <em>.
+    
+3. inline-block:
+    Combines aspects of both block and inline elements.
+    Inline-block elements do not start on a new line and can have a specific width and height.
+    Useful for creating inline elements with block-level styling.
+
+4. none:
+    Elements with display: none; are not rendered on the page.
+    They are effectively invisible and do not occupy space in the layout.
+    Useful for hiding elements dynamically using JavaScript.

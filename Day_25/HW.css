@@ -1,0 +1,74 @@
+div{
+    border: 1px solid;
+}
+h1{
+    text-align: center;
+    border: 2px solid black;
+    background-color: bisque;
+    color: brown;
+}
+h2 {
+    background-color: yellow;
+    display: inline;
+}
+
+p {
+    margin: 10px ;
+}
+
+.normal { font-style: normal; }
+.italic { font-style: italic; }
+.oblique { font-style: oblique; }
+
+.normal-variant { font-variant: normal; }
+.small-caps { font-variant: small-caps; }
+
+
+.weight-normal { font-weight: normal; }
+.weight-bold { font-weight: bold; }
+.weight-bolder { font-weight: bolder; }
+.weight-lighter { font-weight: lighter; }
+.weight-100 { font-weight: 100; }
+.weight-400 { font-weight: 400; }
+.weight-500 { font-weight: 900; }
+
+
+.font-10px{ font-size: 10px;}
+.font-size { font-size: 30px; }
+
+
+.line-height { line-height:2; }
+
+
+.times { font-family: 'Times New Roman',Times, serif; }
+.arial { font-family: Arial, Helvetica, sans-serif; }
+
+
+.shorthand { font:italic;}
+
+
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.align-justify { text-align: justify; }
+
+
+.decoration-none { text-decoration: none; }
+.decoration-underline { text-decoration: underline; }
+.decoration-overline { text-decoration: overline; }
+.decoration-line-through { text-decoration: line-through; }
+
+
+.transform-none { text-transform: none; }
+.transform-capitalize { text-transform: capitalize; }
+.transform-lowercase { text-transform: lowercase; }
+.transform-uppercase { text-transform: uppercase; }
+
+
+.letter-spacing { letter-spacing: 5px; }
+
+
+.word-spacing { word-spacing: 20px; }
+
+
+.color { color: hotpink; }
