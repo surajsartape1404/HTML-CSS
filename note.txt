@@ -1,0 +1,53 @@
+HTML:
+  Intro-History(internet,browser,webpage), html
+  code setup
+  HTML template
+  head: title, link, style
+  body:
+  Headings, paragraph
+  html elemet structure
+  self closing element
+  attribute
+  text formatting tags
+  a,img,ul,ol,table,button
+  sematic element
+  block, inline element
+  div vs span
+  Form:
+  input(all type), lable, option
+  datalist
+  select
+  textarea
+  form,fieldset
+  form validation
+  media:
+    source
+    picture
+    figure    
+    audio
+    video   
+  html entity
+  Frame: iframe
+------------------------------------
+
+CSS:
+  css intro, HTML+css integration
+  inheritance, specificity, !important
+  selectors
+  Pseudo class, Pseudo selectors/elements
+  box model
+  color
+  background
+  custome css property
+  text,font
+  position
+  float
+  display
+  flex
+  grid
+  
+  transform
+  transition
+  animation
+--------------
+responsive:

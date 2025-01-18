@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position CSS</title>
+    <style>
+        body {
+            border: 2px solid red;
+        }
+
+        .first {
+            background-color: yellow;
+            height: 150px;
+        }
+
+        .second {
+            background-color: tomato;
+            width: 500px;
+            height: 150px;
+            /* position: static; */
+            /* position: relative; */
+            /* position: fixed; */
+            /* position: absolute; */
+            position: sticky;
+            left: 50px;
+            top: 50px;
+        }
+
+        .third {
+            background-color: chocolate;
+            height: 900px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">first Element</div>
+    <div class="second">Check Position</div>
+    <div class="third">Fix Element</div>
+
+</body>
+
+</html>

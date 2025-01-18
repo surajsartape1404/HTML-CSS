@@ -1,0 +1,14 @@
+display: flex;
+
+    flex is aproperty of display. it should be given to container.
+    The element becomes a flex container, allowing child elements to align according to flexbox rules.
+    
+# Key Concepts of Flexbox:
+    - Flex Container: The parent element that has `display: flex;`.
+    - Flex Items: The child elements inside the flex container.
+    - Main Axis:  where all elements are arranged
+    - Cross Axis: where each element is arranged(Perpandicular to main axis)
+
+Flex is mainly used when you want to show element in one direction or dimension.
+It’s used for creating flexible, responsive layouts.
+The Flexbox layout is designed to provide a more efficient way to layout, align, and distribute space among items in a container, even when their size is dynamic.
